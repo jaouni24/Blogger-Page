@@ -1,0 +1,43 @@
+article{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap;  */
+}
+
+#personal_image{
+    display: block;
+    margin: auto;
+    font-size: 200px;
+}
+
+.article_body{
+    width: 85%;
+    height: auto;
+    margin: 20px; 
+    flex: 5;
+}
+
+#blogger_info{
+    flex: 1;
+    margin: 20px;
+    border: 2px solid black;
+    padding: 20px;
+    background-color: #ed9b9b;
+    border-radius: 5px;
+}
+
+@media (max-width: 800px) {
+    article{
+        display: flex;
+        flex-direction: column;
+        /* flex-wrap: wrap;  */
+        margin: 20px;
+    }
+
+    #blogger_info{
+        display: block;
+        margin: auto;
+    }
+    
+    
+}

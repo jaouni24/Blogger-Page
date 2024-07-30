@@ -1,0 +1,52 @@
+footer {
+    background-color: #F8EDE3;
+}
+
+fieldset {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 12px;
+    text-align: center;
+    font-size: 24px;
+}
+
+#copy_right_paragragh {
+    text-align: center;
+    font-size: 18px;
+}
+
+.input_form {
+    height: 50%;
+    width: 50%;
+    border-radius: 3%;
+    background-color: #f9caca;
+    font-size: 16px;
+}
+
+#button_submitt_form {
+    grid-column: 1 / span 2;
+    width: fit-content;
+    text-align: center;
+    background-color: #f9caca;
+    font-size: 16px;
+    border-radius: 3%;
+    display: block;
+    margin: auto;
+    height: 50px;
+    width: 30%;
+}
+
+@media (max-width: 800px) {
+    fieldset {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+    }
+
+    .input_form {
+        height: 35px;
+        border-radius: 3%;
+        background-color: #f9caca;
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,62 @@
+main{
+    background-color: #E97777;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+}
+
+main img{
+    margin: 35px;
+    max-height: 100%;
+    width: auto; 
+    align-items: center;
+    border-radius: 15px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    height: 630px;
+    width: 400px;
+    background-color: #F8EDE3;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 3px 3px 3px grey inset;
+}
+
+.button_card{
+    background-color: #fababa;
+    color: black;
+    padding: 15px 20px;
+    margin: 15px auto auto auto;
+    text-align: center;
+    display: block;
+    border-radius: 5px;
+}
+
+.button_card:hover{
+    background-color: #b4acac;
+}
+
+.card figcaption{
+    text-align: center;
+    font-style: italic;
+}
+
+.card img{
+    height: 200px;
+    width: 200px; 
+    background-size: cover;
+    display: block;
+    margin: auto;
+    width: 100%;
+}
