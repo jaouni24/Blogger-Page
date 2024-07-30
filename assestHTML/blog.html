@@ -5,11 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
 
-    <link rel="stylesheet" href="../static/home.css">
-    <link rel="stylesheet" href="assestHTML/contact.html">
-    <link rel="stylesheet" href="assestHTML/blog.html">
-    <link rel="stylesheet" href="assestHTML/about.html">
-    <script src="\javascript\nav.js"></script>
+    <link rel="stylesheet" href="../static/blog.css">
+    <script src="../javascript/nav.js"></script>
+    <script src="../javascript/shareMedia"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
@@ -28,17 +26,21 @@
             <i class="fa fa-bars"></i></a>
     </header>
 
-
     <main>
-        <article>
+        <article id="article_container">
             <div id="blogger_info">
                 <i class="material-icons" id="personal_image">account_circle</i>
                 <h3><b>Blogger:</b> Hiba Jaouni</h3>
                 <h3><b>Job:</b> Software Engineering</h3>
                 <h3><b>Address:</b> Ramallah</h3>
                 <p>Let's Contact...</p>
+                <div class="link_buttons">
+                    <a href="mailto:hiba.jaouni20@gmail.com" target="_blank"><button>Gmail</button></a>
+                    <a href="https://www.linkedin.com/feed/" target="_blank"><button>Linkedin</button></a>
+                    <a href="https://www.facebook.com/" target="_blank"><button>Facebook</button></a>
+                </div>
             </div>
-            
+
             <div id="blogger_article">
                 <h2>Coffe</h2>
                 <p class="article_body"><b>The standard Lorem Ipsum passage, used since the 1500s</b><br>

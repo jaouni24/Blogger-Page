@@ -1,7 +1,14 @@
-article{
+@import url("nav.css");
+@import url("blog.css");
+@import url("footer.css");
+
+body{
+    font-family: "Times New Roman", Times, serif;
+}
+#article_container{
     display: flex;
     flex-direction: row;
-    /* flex-wrap: wrap;  */
+    background-color: #df7d7d;
 }
 
 #personal_image{
@@ -24,20 +31,45 @@ article{
     padding: 20px;
     background-color: #ed9b9b;
     border-radius: 5px;
+    width: fit-content;
+    display: block;
+}
+
+#blogger_info button{
+    text-align: center;
+    background-color: #ed9b9b;
+    font-size: 16px;
+    /* border-radius: 3%; */
+    border: 2px solid black;
+    margin: auto;
+    margin: 5px;
+    height: 40px;
+}
+
+.link_buttons{
+    background-color: #fababa;
+    color: black;
+    padding: 15px 20px;
+    margin: 15px;
+    display: flex;
+    flex: 1;
+    border-radius: 5px;
+}
+
+#blogger_info button:hover{
+    background-color: #b4acac;
 }
 
 @media (max-width: 800px) {
-    article{
+    #article_container{
         display: flex;
         flex-direction: column;
         /* flex-wrap: wrap;  */
-        margin: 20px;
+        padding: 20px;
     }
 
     #blogger_info{
         display: block;
         margin: auto;
     }
-    
-    
 }
