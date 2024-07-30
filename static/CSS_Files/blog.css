@@ -5,6 +5,7 @@
 body{
     font-family: "Times New Roman", Times, serif;
 }
+
 #article_container{
     display: flex;
     flex-direction: row;
@@ -54,6 +55,7 @@ body{
     display: flex;
     flex: 1;
     border-radius: 5px;
+    text-align: center;
 }
 
 #blogger_info button:hover{
@@ -71,5 +73,12 @@ body{
     #blogger_info{
         display: block;
         margin: auto;
+        width: 80%;
+    }
+
+    .link_buttons{
+        display: block;
+        margin: auto;
+        width: 80%;
     }
 }
